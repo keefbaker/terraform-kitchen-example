@@ -1,0 +1,18 @@
+driver:
+  name: terraform
+
+provisioner:
+  name: terraform
+
+verifier:
+  name: terraform
+
+platforms:
+  - name: main_test
+    verifier:
+      systems:
+        - name: local
+          backend: aws
+
+suites:
+  - name: security
