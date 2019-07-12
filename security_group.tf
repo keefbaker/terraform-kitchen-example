@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 resource "aws_security_group" "doom" {
-  vpc_id = "vpc-a3c1b5c4"
+  vpc_id = "vpc-1234567"
 }
 
 resource "aws_security_group_rule" "doom" {
